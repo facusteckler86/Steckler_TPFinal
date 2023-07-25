@@ -21,6 +21,9 @@ import { MatMenuModule } from '@angular/material/menu';
     MatToolbarModule,
     MatMenuModule
   ],
+  export: [
+
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
