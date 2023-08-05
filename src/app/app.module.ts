@@ -9,6 +9,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { MatMenuModule } from '@angular/material/menu';
 import { CoursesComponent } from './courses/courses.component';
 import { UsersComponent } from './users/users.component';
+import { CoursesModule } from './courses/courses.module';
+import { DashboardModule } from './dashboard/dashboard.module';
+import { UsersModule } from './users/users.module';
+import { StoreModule } from '@ngrx/store';
 
 
 @NgModule({
@@ -23,9 +27,13 @@ import { UsersComponent } from './users/users.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatMenuModule
+    MatMenuModule,
+    CoursesModule,
+    DashboardModule,
+    StoreModule.forRoot({}, {}),
+
   ],
-  export: [
+  exports: [
 
   ],
   providers: [],
