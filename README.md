@@ -1,28 +1,15 @@
-# AngularStecklerFinal
+# Trabajo final de Angular.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
+Trabajo final realizado en Coderhouse, donde debo realizar una base de datos de una plataforma de cursos; desde el lado de los alumnos poder ver los cursos disponibles y poder inscribirse a los mismos, y desde el admin poder controlar las inscrpciones y los cursos activos.
 
-## Development server
+## Tecnologias utilizadas.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Angular CLI (version 16.1.0)
+- Angular Material
+- NgRx
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="512px" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="_x32_1-angular"><g><path d="M216.879,268.426h78.241L256,174.372L216.879,268.426L216.879,268.426z M256,26.001L42.635,102.395    l32.652,283.081L256,485.999l180.712-100.523l32.653-283.081L256,26.001z M389.688,376.957h-49.904l-26.9-67.153H199.321    l-26.903,67.153h-50.003L256,76.827L389.688,376.957z" style="fill:#DD0031;"/></g></g><g id="Layer_1"/></svg>
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# Steckler_TPFinal
+Realizado por Facundo Steckler, usuario GitHub https://github.com/facusteckler86.
+Linkedin: https://www.linkedin.com/in/facundomsteckler/
