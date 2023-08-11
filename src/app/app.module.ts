@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, isDevMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -13,6 +13,8 @@ import { CoursesModule } from './courses/courses.module';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { UsersModule } from './users/users.module';
 import { StoreModule } from '@ngrx/store';
+import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import { InicioComponent } from './inicio/inicio.component';
 
 
 @NgModule({
@@ -20,7 +22,8 @@ import { StoreModule } from '@ngrx/store';
     AppComponent,
     DashboardComponent,
     CoursesComponent,
-    UsersComponent
+    UsersComponent,
+    InicioComponent
   ],
   imports: [
     BrowserModule,
@@ -31,6 +34,7 @@ import { StoreModule } from '@ngrx/store';
     CoursesModule,
     DashboardModule,
     StoreModule.forRoot({}, {}),
+    StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: !isDevMode() }),
 
   ],
   exports: [
